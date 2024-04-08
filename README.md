@@ -25,6 +25,7 @@ You need foundry to be installed and configured in your system.
 Checkout Foundry Documentation [here](https://book.getfoundry.sh/getting-started/installation)
 
 ### Deploy the smart contracts
+
 1. Set up the private key : ```cast wallet import defaultKey --interactive```
 
 2. Run the Deploy script : 
