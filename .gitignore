@@ -10,6 +10,9 @@ src/contracts/cache
 src/contracts/lib
 src/contracts/out
 
+#broadcasts
+src/contracts/broadcast
+
 # testing
 /coverage
 
