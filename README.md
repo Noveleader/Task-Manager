@@ -15,19 +15,25 @@ Task Manager servers basic task manager functionality all done using smart contr
 
 ## Installation
 
-Instructions on how to install and set up your project.
-
-Install the node modules 
+Install the node modules :
 ```npm i```
-
-Run the Dapp
-```npm start```
 
 ## Usage
 
-Instructions on how to use your project and any relevant examples.
+You need foundry to be installed and configured in your system. 
 
-Start by adding the task you want to add in your task list, sign the transaction and its all done. Now your tasks are stored onto blockchain. 
+Checkout Foundry Documentation [here](https://book.getfoundry.sh/getting-started/installation)
+
+# Deploy the smart contracts
+1. Set up the private key : ```cast wallet import defaultKey --interactive```
+
+2. Run the Deploy script : 
+```forge script scripts/DeployTaskManager.s.sol:DeployTaskManager --rpc-url <RPC_URL> --account testingKey --sender <WALLET_ADDRESS> --broadcast -vvvvv```
+
+3. Once deployed, replace your contract address in the following file : 
+```src/Contracts/scripts/addresses.js```
+
+4. Run the Dapp : ```npm start```
 
 ## Contributing
 
