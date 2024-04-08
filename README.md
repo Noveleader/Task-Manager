@@ -4,7 +4,7 @@
 
 ## Description
 
-Task Manager servers basic task manager functionality all done using smart contracts and deployed on a testnet. 
+Task Manager serves basic task managing functionality all done using smart contracts and deployed on a sepolia testnet. 
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ You need foundry to be installed and configured in your system.
 
 Checkout Foundry Documentation [here](https://book.getfoundry.sh/getting-started/installation)
 
-# Deploy the smart contracts
+### Deploy the smart contracts
 1. Set up the private key : ```cast wallet import defaultKey --interactive```
 
 2. Run the Deploy script : 
